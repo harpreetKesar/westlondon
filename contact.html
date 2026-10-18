@@ -1,45 +1,279 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact | West London Electrical Services</title>
-  <meta name="description" content="Contact West London Electrical Services for electrical repairs, installations, emergency callouts and landlord certificates.">
+  <meta name="description" content="Contact West London Electrical Services. Call 073 5557 3777, email info@westlondonelectricalservices.co.uk or send an enquiry about the electrical work you need.">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="alternate icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d1117'/%3E%3Cpath d='M17.5 5 8 18h7l-1 9 10-13h-7l.5-9z' fill='%23ffd60a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/main.js" defer></script>
+  <script>document.documentElement.classList.remove('no-js');</script>
 </head>
-<body data-page="contact">
-  <div data-site-header></div>
+<body>
 
-  <main>
-    <section class="page-title dark">
-      <p class="eyebrow">Contact</p>
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-5"/><path d="M9 8V2"/><path d="M15 8V2"/><path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></symbol>
+    <symbol id="i-board" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7.5 7v5"/><path d="M12 7v5"/><path d="M16.5 7v5"/><path d="M7 16.5h10"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.8L20 10l-6.1 1.2L12 17l-1.9-5.8L4 10l6.1-1.2z"/><path d="M19 17v4M17 19h4"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Top bar -->
+<div class="topbar">
+  <div class="container">
+    <ul class="topbar-list">
+      <li><a href="tel:07355573777"><svg><use href="#i-phone"/></svg>073 5557 3777</a></li>
+      <li class="hide-sm"><a href="mailto:info@westlondonelectricalservices.co.uk"><svg><use href="#i-mail"/></svg>info@westlondonelectricalservices.co.uk</a></li>
+    </ul>
+    <span class="hide-md"><svg><use href="#i-pin"/></svg>Hounslow · Twickenham · Feltham · Cranford</span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="West London Electrical Services home"><img src="images/logo.png" alt="West London Electrical Services" width="810" height="666"></a>
+
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#who-we-work-with">Who We Help</a>
+      <a href="index.html#why-us">Why Us</a>
+      <a href="index.html#areas">Areas</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <div class="header-cta">
+      <a href="tel:07355573777" class="header-phone">
+        <span class="icon-circle"><svg><use href="#i-phone"/></svg></span>
+        <span><small>Call us today</small><strong>073 5557 3777</strong></span>
+      </a>
+      <a href="contact.html" class="btn btn-primary">Request a quote</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile navigation -->
+<div class="mobile-nav" id="mobileNav" aria-hidden="true">
+  <div class="mobile-nav-backdrop" data-close></div>
+  <div class="mobile-nav-panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="mobile-nav-head">
+      <a href="index.html" class="logo" aria-label="West London Electrical Services home"><img src="images/logo.png" alt="West London Electrical Services" width="810" height="666"></a>
+      <button class="nav-close" data-close aria-label="Close menu"><svg><use href="#i-x"/></svg></button>
+    </div>
+    <nav class="mobile-nav-links" aria-label="Mobile">
+      <a href="index.html">Home <svg><use href="#i-chevron"/></svg></a>
+      <a href="index.html#services">Services <svg><use href="#i-chevron"/></svg></a>
+      <a href="index.html#who-we-work-with">Who We Help <svg><use href="#i-chevron"/></svg></a>
+      <a href="index.html#why-us">Why Us <svg><use href="#i-chevron"/></svg></a>
+      <a href="index.html#areas">Areas <svg><use href="#i-chevron"/></svg></a>
+      <a href="contact.html" class="active">Contact <svg><use href="#i-chevron"/></svg></a>
+    </nav>
+    <div class="mobile-nav-foot">
+      <a href="tel:07355573777" class="btn btn-primary btn-block"><svg><use href="#i-phone"/></svg>Call 073 5557 3777</a>
+      <a href="contact.html" class="btn btn-outline btn-block">Request a quote</a>
+      <p>Domestic &amp; commercial electricians covering Hounslow, Twickenham, Feltham, Cranford and nearby.</p>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><svg><use href="#i-chevron"/></svg><span>Contact</span></nav>
       <h1>Get in touch</h1>
-      <p>Call, email or send the enquiry form with a few details about the electrical work you need.</p>
-    </section>
+      <p>Call, email or send an enquiry form with details about the electrical work you need.</p>
+    </div>
+  </section>
+  <div class="hazard"></div>
 
-    <section class="section contact-grid">
-      <div class="contact-card">
-        <h2>Contact details</h2>
-        <p><strong>Phone:</strong> <a href="tel:07355573777">073 5557 3777</a></p>
-        <p><strong>Email:</strong> <a href="mailto:info@westlondonelectricalservices.co.uk">info@westlondonelectricalservices.co.uk</a></p>
-        <p><strong>Address:</strong><br>7 Nursery Gardens<br>Hounslow<br>London TW4 5EY</p>
+  <section class="section section-soft">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <span class="kicker reveal">Contact details</span>
+          <a href="tel:07355573777" class="contact-card reveal">
+            <span class="ic"><svg><use href="#i-phone"/></svg></span>
+            <div><small>Phone</small><strong>073 5557 3777</strong></div>
+          </a>
+          <a href="mailto:info@westlondonelectricalservices.co.uk" class="contact-card reveal d1">
+            <span class="ic"><svg><use href="#i-mail"/></svg></span>
+            <div><small>Email</small><strong>info@westlondonelectricalservices.co.uk</strong></div>
+          </a>
+          <div class="contact-card reveal d2">
+            <span class="ic"><svg><use href="#i-pin"/></svg></span>
+            <div><small>Address</small><strong>7 Nursery Gardens, Hounslow, London TW4 5EY</strong></div>
+          </div>
+          <div class="contact-card reveal d3">
+            <span class="ic"><svg><use href="#i-home"/></svg></span>
+            <div><small>Areas covered</small><strong>Hounslow, Twickenham, Feltham, Cranford &amp; nearby</strong></div>
+          </div>
+          <div class="contact-accred reveal d3">
+            <h3>Accredited electricians</h3>
+            <div class="logos">
+              <img src="images/napit.jpg" alt="NAPIT registered" width="54" height="54">
+              <img src="images/trustmark.jpg" alt="TrustMark government endorsed" width="54" height="54">
+              <img src="images/registered-competent-person.jpg" alt="Registered competent person – electrical" width="54" height="54">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card reveal d1">
+          <h2>Send an enquiry</h2>
+          <p>Tell us a little about the job and we'll get back to you with practical advice and clear next steps.</p>
+          <form id="enquiryForm" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Your name <span class="req">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="phone">Phone number <span class="req">*</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+              </div>
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" autocomplete="email">
+              </div>
+              <div class="field">
+                <label for="service">Type of work</label>
+                <select id="service" name="service">
+                  <option value="">Please select…</option>
+                  <option>Repairs &amp; fault finding</option>
+                  <option>Installations &amp; upgrades</option>
+                  <option>Consumer unit upgrade</option>
+                  <option>Lighting &amp; sockets</option>
+                  <option>Testing &amp; certificates / EICR</option>
+                  <option>Emergency callout</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="details">Job details <span class="req">*</span></label>
+                <textarea id="details" name="details" required placeholder="e.g. Kitchen sockets keep tripping the RCD, 3-bed house in Hounslow"></textarea>
+              </div>
+              <div class="field full">
+                <button type="submit" class="btn btn-primary btn-block">Send enquiry <svg><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+            <p class="form-note">For urgent jobs, please call us on <a href="tel:07355573777"><strong>073 5557 3777</strong></a>.</p>
+          </form>
+        </div>
       </div>
 
-      <form class="contact-form" action="mailto:info@westlondonelectricalservices.co.uk" method="post" enctype="text/plain">
-        <label for="name">Your name</label>
-        <input id="name" name="name" type="text" autocomplete="name" required>
-        <label for="phone">Phone number</label>
-        <input id="phone" name="phone" type="tel" autocomplete="tel" required>
-        <label for="email">Email address</label>
-        <input id="email" name="email" type="email" autocomplete="email" required>
-        <label for="message">Job details</label>
-        <textarea id="message" name="message" rows="7" placeholder="Tell us what you need help with"></textarea>
-        <button class="button primary" type="submit">Send enquiry</button>
-      </form>
-    </section>
-  </main>
+      <div class="map-wrap reveal">
+        <iframe title="Map showing 7 Nursery Gardens, Hounslow TW4 5EY" src="https://maps.google.com/maps?q=7%20Nursery%20Gardens%2C%20Hounslow%20TW4%205EY&amp;z=14&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
 
-  <div data-site-footer></div>
+  <section class="cta-band">
+    <div class="container cta-inner">
+      <div class="reveal">
+        <h2>Prefer to talk it through?</h2>
+        <p>Give us a call for practical advice on repairs, installations, safety checks and certificates.</p>
+      </div>
+      <div class="cta-actions reveal d1">
+        <a href="tel:07355573777" class="btn btn-dark"><svg><use href="#i-phone"/></svg>073 5557 3777</a>
+        <a href="mailto:info@westlondonelectricalservices.co.uk" class="btn btn-outline-dark">Email us</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="hazard"></div>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo" aria-label="West London Electrical Services home"><img src="images/logo.png" alt="West London Electrical Services" width="810" height="666"></a>
+      <p>Domestic and commercial electricians providing reliable repairs, installations, safety checks and certificates across West London.</p>
+      <div class="footer-accred">
+        <img src="images/napit.jpg" alt="NAPIT" width="46" height="46" loading="lazy">
+        <img src="images/trustmark.jpg" alt="TrustMark" width="46" height="46" loading="lazy">
+        <img src="images/registered-competent-person.jpg" alt="Registered competent person" width="46" height="46" loading="lazy">
+      </div>
+    </div>
+    <div>
+      <h4>Quick links</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#who-we-work-with">Who we help</a></li>
+        <li><a href="index.html#why-us">Why choose us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul class="footer-links">
+        <li><a href="index.html#services">Repairs &amp; fault finding</a></li>
+        <li><a href="index.html#services">Installations &amp; upgrades</a></li>
+        <li><a href="index.html#services">Testing &amp; certificates</a></li>
+        <li><a href="index.html#services">EICR reports</a></li>
+        <li><a href="tel:07355573777">Emergency callouts</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li><svg><use href="#i-phone"/></svg><a href="tel:07355573777">073 5557 3777</a></li>
+        <li><svg><use href="#i-mail"/></svg><a href="mailto:info@westlondonelectricalservices.co.uk">info@westlondonelectricalservices.co.uk</a></li>
+        <li><svg><use href="#i-pin"/></svg><span>7 Nursery Gardens, Hounslow,<br>London TW4 5EY</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <span>&copy; <span data-year>2026</span> West London Electrical Services. All rights reserved.</span>
+      <span>Serving Hounslow, Twickenham, Feltham &amp; Cranford</span>
+      <span>Designed &amp; maintained by <a class="footer-credit" href="https://skgdigitalsolutions.com" target="_blank" rel="noopener">SKG Digital Solutions</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:07355573777" class="float-call" aria-label="Call 073 5557 3777"><svg><use href="#i-phone"/></svg></a>
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><svg><use href="#i-up"/></svg></button>
+
+<script src="js/main.js"></script>
 </body>
 </html>
